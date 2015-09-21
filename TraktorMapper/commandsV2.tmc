@@ -1,0 +1,303 @@
+VERSION="2.0.6";
+
+
+19   = "Tempo Range";
+100  = "Deck Play";
+
+202  = "Loop Active On"                @ "DECK COMMON" - "Loop";
+203  = "Is in Active Loop";
+
+247  = "Slot State";
+265  = "Slot Play Mode";
+
+665  = "Slot 1 Cell 1 State";
+666  = "Slot 1 Cell 2 State";
+667  = "Slot 1 Cell 3 State";
+668  = "Slot 1 Cell 4 State";
+669  = "Slot 1 Cell 5 State";
+670  = "Slot 1 Cell 6 State";
+671  = "Slot 1 Cell 7 State";
+672  = "Slot 1 Cell 8 State";
+673  = "Slot 1 Cell 9 State";
+674  = "Slot 1 Cell 10 State";
+675  = "Slot 1 Cell 11 State";
+676  = "Slot 1 Cell 12 State";
+677  = "Slot 1 Cell 13 State";
+678  = "Slot 1 Cell 14 State";
+679  = "Slot 1 Cell 15 State";
+680  = "Slot 1 Cell 16 State";
+681  = "Slot 2 Cell 1 State";
+682  = "Slot 2 Cell 2 State";
+683  = "Slot 2 Cell 3 State";
+684  = "Slot 2 Cell 4 State";
+685  = "Slot 2 Cell 5 State";
+686  = "Slot 2 Cell 6 State";
+687  = "Slot 2 Cell 7 State";
+688  = "Slot 2 Cell 8 State";
+689  = "Slot 2 Cell 9 State";
+690  = "Slot 2 Cell 10 State";
+691  = "Slot 2 Cell 11 State";
+692  = "Slot 2 Cell 12 State";
+693  = "Slot 2 Cell 13 State";
+694  = "Slot 2 Cell 14 State";
+695  = "Slot 2 Cell 15 State";
+696  = "Slot 2 Cell 16 State";
+697  = "Slot 3 Cell 1 State";
+698  = "Slot 3 Cell 2 State";
+699  = "Slot 3 Cell 3 State";
+700  = "Slot 3 Cell 4 State";
+701  = "Slot 3 Cell 5 State";
+702  = "Slot 3 Cell 6 State";
+703  = "Slot 3 Cell 7 State";
+704  = "Slot 3 Cell 8 State";
+705  = "Slot 3 Cell 9 State";
+706  = "Slot 3 Cell 10 State";
+707  = "Slot 3 Cell 11 State";
+708  = "Slot 3 Cell 12 State";
+709  = "Slot 3 Cell 13 State";
+710  = "Slot 3 Cell 14 State";
+711  = "Slot 3 Cell 15 State";
+712  = "Slot 3 Cell 16 State";
+713  = "Slot 4 Cell 1 State";
+714  = "Slot 4 Cell 2 State";
+715  = "Slot 4 Cell 3 State";
+716  = "Slot 4 Cell 4 State";
+717  = "Slot 4 Cell 5 State";
+718  = "Slot 4 Cell 6 State";
+719  = "Slot 4 Cell 7 State";
+720  = "Slot 4 Cell 8 State";
+721  = "Slot 4 Cell 9 State";
+722  = "Slot 4 Cell 10 State";
+723  = "Slot 4 Cell 11 State";
+724  = "Slot 4 Cell 12 State";
+725  = "Slot 4 Cell 13 State";
+726  = "Slot 4 Cell 14 State";
+727  = "Slot 4 Cell 15 State";
+728  = "Slot 4 Cell 16 State";
+
+733  = "Sample Page Selector";
+
+2002 = "Capture Source";
+2003 = "Slot Trigger Type";
+
+2176 = "Load Next"                     @ "DECK COMMON";
+2177 = "Load Previous"                 @ "DECK COMMON";
+2178 = "Unload (Deck Common)"          @ "DECK COMMON";
+
+2192 = "Loop Set"                      @ "DECK COMMON" - "Loop";
+2196 = "Loop Size Selector"            @ "DECK COMMON" - "Loop";
+
+2288 = "Deck Mode";
+
+2301 = "FX Panel Mode";
+2302 = "Deck Flavor";
+
+2317 = "Loop Size Select + Set"        @ "DECK COMMON" - "Loop";
+2318 = "Backward Loop Size Select"     @ "DECK COMMON" - "Loop";
+
+2333 = "Hotcue1";
+2334 = "Hotcue2";
+2335 = "Hotcue3";
+2336 = "Hotcue4";
+2337 = "Hotcue5";
+2338 = "Hotcue6";
+2339 = "Hotcue7";
+2340 = "Hotcue8";
+
+2351 = "Move"                          @ "DECK COMMON" - "Move";
+
+2372 = "Size Selector"                 @ "DECK COMMON" - "Move";
+2380 = "BeatJump"                      @ "DECK COMMON" - "Move";
+
+2391 = "Cue/Loop Move Mode", "Mode Selector" @ "Move";
+2392 = "Loop In/Set Cue"               @ "DECK COMMON" - "Loop";
+2393 = "Loop Out"                      @ "DECK COMMON" - "Loop";
+
+2548 = "M1", "Modifier #1";
+2549 = "M2", "Modifier #2";
+2550 = "M3", "Modifier #3";
+2551 = "M4", "Modifier #4";
+2552 = "M5", "Modifier #5";
+2553 = "M6", "Modifier #6";
+2554 = "M7", "Modifier #7";
+2555 = "M8", "Modifier #8";
+
+3076 = "Load Selected (Deck Common)"   @ "DECK COMMON";
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Move
+ // >>
+d(100, "Play/Pause (Deck Common)");
+206, "Cue");
+204, "CUP (Cue Play)");
+103, "Seen Position (Deck Common)");
+2187, "Jog Touch On");
+120, "Jog Turn");
+2293, "Set As Tempo Master");
+125, "Sync On");
+124, "Phase Sync");
+122, "Tempo Sync");
+406, "Tempo Bend");
+404, "Tempo Bend (Stepless)");
+123, "Tempo Adjust");
+d(19, "Tempo Range Selector");
+2798, "Analyze Loaded Track");
+d(2302, "Deck Flavor Selector");
+2300, "Deck Size Selector");
+2299, "Advanced Panel Toggle");
+2298, "Advanced Panel Tab Selector");
+2350, "Flux Mode On");
+213, "Set Cue and Store as Next Hotcue"); // TRACK DECK - Cue
+2308, "Store Floating Cue/Loop as Next Hotcue");
+2309, "Delete Current Hotcue");
+2306, "Jump To Next/Prev Cue/Loop");
+2315, "Map Hotcue");
+2328, "Select/Set + Store Hotcue");
+2331, "Delete Hotcue");
+2327, "Cue Type Selector");
+2237, "AutoGrid"); // Grid
+2254, "Reset BPM");
+2255, "Copy Phase from Tempo Master");
+2248, "Set Grid Marker");
+2249, "Delete Grid Marker");
+2253, "Move Grid Marker");
+2238, "BPM Adjust");
+2241, "BPM Lock On");
+2258, "BPM x2");
+2259, "BPM /2");
+2240, "Beat Tap (Track Deck.Grid)");
+2252, "Tick On (Track Deck.Grid)");
+2395, "Load, Loop and Play"); // >>
+2401, "Duplicate Track Deck A");
+2402, "Duplicate Track Deck B");
+2403, "Duplicate Track Deck C");
+2404, "Duplicate Track Deck D");
+4162, "Waveform Zoom Adjust");
+400, "Keylock On");
+405, "Keylock On (Preserve Pitch)");
+402, "Key Adjust");
+255, "Play All Slots"); // REMIX DECK - Legacy
+256, "Trigger All Slots");
+258, "Slot Retrigger Play");
+244, "Slot Load from List");
+246, "Slot Unload");
+245, "Slot Capture from Deck");
+263, "Slot Capture from Loop Recorder");
+264, "Slot Copy from Slot");
+242, "Play Mode All Slots");
+266, "Slot Size x2");
+267, "Slot Size /2");
+268, "Slot Size Reset");
+2000, "Slot Size Adjust");
+729, "Cell Load Modifier"); // Direct Mapping
+730, "Cell Delete Modifier");
+731, "Cell Reverse Modifier");
+732, "Cell Capture Modifier");
+234, "Save Remix Set"); // >>
+233, "Load Set from List");
+251, "Slot Volume Adjust");
+250, "Slot Filter On");
+249, "Slot Filter Adjust");
+2004, "Slot Capture/Trigger/Mute");
+259, "Slot Mute On");
+236, "Slot Stop/Delete/Load from List");
+260, "Slot Retrigger");
+d(265, "Slot Play Mode");
+d(2003, "Slot Trigger Type");
+237, "Slot Keylock On");
+239, "Slot FX On");
+238, "Slot Monitor On");
+235, "Slot Punch On");
+229, "Quantize Selector");
+230, "Quantize On");
+d(2002, "Capture Source Selector");
+d(733, "Sample Page Selector");
+303, "High Adjust"); // MIXER - EQ
+306, "High Kill");
+302, "Mid Adjust");
+305, "Mid Kill");
+316, "MidLow Adjust");
+307, "MidLow Kill");
+301, "Low Adjust");
+304, "Low Kill");
+5, "Position"); // X-fader
+14, "Curve Adjust");
+2408, "Assign Left");
+2409, "Assign Right");
+2113, "Auto X-Fade Left");
+2114, "Auto X-Fade Right");
+117, "Gain Adjust"); // >>
+118, "Auto-Gain Adjust");
+2807, "Auto-Gain View On");
+321, "FX Unit 1 On");
+322, "FX Unit 2 On");
+338, "FX Unit 3 On");
+339, "FX Unit 4 On");
+348, "Deck Effect On");
+320, "Filter Adjust");
+319, "Filter On");
+127, "Balance Adjust");
+119, "Monitor Cue On");
+102, "Volume Adjust");
+6, "Master Volume Adjust");
+7, "Limiter On");
+8, "Monitor Volume Adjust");
+17, "Monitor Mix Adjust");
+295, "Microphone Gain Adjust");
+369, "Unit On"); // FX UNIT - >>
+365, "Dry/Wet Adjust");
+366, "Knob1");
+367, "Knob2");
+368, "Knob3");
+370, "Button1");
+371, "Button2");
+372, "Button3");
+362, "Effect 1 Selector");
+363, "Effect 2 Selector");
+364, "Effect 3 Selector");
+d(2301, "FX Unit Mode Selector");
+325, "Routing Selector");
+326, "FX Store Preset");
+323, "Effect LFO Reset");
+3211, "Delete"); // BROWSER - List
+3212, "Reset Played-State");
+3213, "Analyze");
+3232, "Analysis Unlock");
+3231, "Analysis Lock");
+3215, "Edit");
+3216, "Relocate");
+3217, "Add as Track to Collection");
+3470, "Add as One-Shot Sample to Collection");
+3469, "Add as Loop to Collection");
+3474, "Set to One-Shot Sample");
+3473, "Set to Looped Sample");
+3472, "Set to Track");
+3200, "Select Up/Down");
+3201, "Select Page Up/Down");
+3202, "Select Top/Bottom");
+3203, "Select Extend Up/Down");
+3204, "Select Extend Page Up/Down");
+3205, "Select Extend Top/Bottom");
+3206, "Select All");
+3172, "Consolidate");
+3221, "Search");
+3222, "Search Clear");
+3357, "Search in Playlist");
+3358, "Show in Explorer");
+3224, "Clear");
+3223, "Expand Remix Set");
+3366, "Jump to Current Track");
+3460, "Append to Preparation List");
+3461, "Add as Next to Preparation List");
+3475, "Export as Remix Set");
